@@ -3,5 +3,5 @@ require "nokogiri"
 require "open-uri"
 
 module Billboard
-  autoload :fetcher
+  autoload :Fetcher, 'billboard/fetcher'
 end
