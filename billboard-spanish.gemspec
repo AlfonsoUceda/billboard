@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'billboard/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "billboard"
+  spec.name          = "billboard-spanish"
   spec.version       = Billboard::VERSION
   spec.authors       = ["Alfonso Uceda Pompa"]
   spec.email         = ["alfonso@aspgems.com"]
