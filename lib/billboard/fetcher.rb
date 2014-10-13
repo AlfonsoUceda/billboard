@@ -51,7 +51,7 @@ module Billboard
     private
 
     def doc(url = "http://www.ecartelera.com/cartelera/")
-      @doc ||= Nokogiri::HTML open url
+      Nokogiri::HTML open url
     end
   end
 end
