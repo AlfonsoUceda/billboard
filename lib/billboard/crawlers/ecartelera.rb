@@ -1,5 +1,5 @@
 module Billboard
-  module Fetchers
+  module Crawlers
     class Ecartelera
       def provinces
         doc.css('.listaprovincias ul li a').map do |link|
