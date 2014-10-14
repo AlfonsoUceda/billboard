@@ -3,5 +3,7 @@ require "open-uri"
 require "billboard/version"
 
 module Billboard
-  autoload :Fetcher, 'billboard/fetcher'
+  module Fetchers
+    autoload :Ecartelera, 'billboard/fetchers/ecartelera'
+  end
 end
